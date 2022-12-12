@@ -1,0 +1,124 @@
+
+
+
+.loginDesign {
+
+    background-color: #FFF7E2;
+    /* width: 100vw; */
+    height: 90vh;
+
+}
+
+
+.inputtDesign {
+    border-radius: 50px;
+    height: 2em;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+    padding: 0 0 0 1em;
+}
+
+
+#inputsBox {
+    background-color: rgb(254, 245, 245);
+    height: 18em;
+    /* width: 24em;     */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0) 8px 8px;
+    border-radius: 15px;
+    border: 2px solid;
+}
+
+
+#inputsBox::before {
+
+    content: url("../../assets/buttons.png");
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.4em 0.5em 0;
+    height: 7vh;
+    width: 105%;
+    border-bottom: 2px solid black;
+
+}
+
+
+.errorInput {
+    color: red;
+    font-style: italic;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.mouthImage {
+
+    position: absolute;
+    margin-left: 20em;
+    margin-bottom: 0em;
+    width: 150px;
+
+    transform: rotate(-10deg);
+    rotate: 10deg;
+}
+
+.rayImage {
+
+    position: absolute;
+    margin-top: -5em;
+    margin-left: -20em;
+    width: 120px;
+    transform: rotate(-10deg);
+    rotate: 10deg;
+}
+
+.mouseImage {
+
+    position: absolute;
+    margin-top: -10em;
+    margin-left: 15em;
+    width: 50px;
+
+    transform: rotate(-10deg);
+    rotate: 10deg;
+}
+
+.smileImageLog {
+
+    position: absolute;
+    margin-top: 10em;
+    margin-left: -20em;
+
+    /* width: 50px; */
+
+    transform: rotate(-10deg);
+    rotate: 10deg;
+}
+
+.loginText {
+    margin: 0.2em;
+}
+
+@media(max-width: 768px) {
+
+    .mouthImage,
+    .rayImage,
+    .mouseImage,
+    .smileImage {
+        display: none;
+    }
+}
+
+.imagesLog{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}

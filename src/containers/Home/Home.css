@@ -1,0 +1,22 @@
+.homeDesignEmpty {
+    display: flex;
+    flex-wrap: wrap;
+      background-color: #ffe083;
+
+
+
+    justify-content: space-around;
+    align-items: center;
+
+    height: 80vh;
+}
+
+.dateCard {
+  background-color: white;
+  border-radius: 1em;
+  border: 1px solid black;
+  box-shadow: rgba(0, 0, 0) 3px 4px;
+  padding: 1em;
+  transition: 0.15s linear;
+  margin: 1em;
+}

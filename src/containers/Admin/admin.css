@@ -1,0 +1,73 @@
+.adminContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 1em;
+}
+
+.adminSection {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  width: 100vw;
+}
+
+.adminCard {
+  background-color: white;
+  border-radius: 1em;
+  border: 1px solid black;
+  box-shadow: rgba(0, 0, 0) 3px 4px;
+  padding: 1em;
+}
+
+.adminCard::before {
+  content: url(../../assets/x-square.svg);
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.2em 0.5em 0 0;
+  height: 4vh;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+.adminCardTitle {
+  background-color: white;
+  border-radius: 1em;
+  border: 1px solid black;
+  box-shadow: rgba(0, 0, 0) 3px 4px;
+  padding: 1em;
+  transition: 0.15s linear;
+  margin: 1em;
+}
+
+.adminCardTitle:hover {
+  box-shadow: none;
+  cursor: pointer;
+  transform: scale(1.05);
+  background-color: #e8afa2;
+}
+
+.greenText {
+  color: green;
+  font-weight: bold;
+}
+
+.redText {
+  color: red;
+}
+.collapseText {
+  width: 100%;
+}
+
+.active {
+  background-color: rgb(182, 219, 197);
+}
+
+span {
+  font-weight: bold;
+}
+
+.loanId {
+  margin-top: -2em;
+  margin-bottom: 0.5em;
+}

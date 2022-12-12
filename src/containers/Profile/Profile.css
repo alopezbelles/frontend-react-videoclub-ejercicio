@@ -1,0 +1,124 @@
+.rowDesign {
+    width: 100vw;
+}
+
+.container-fluid{
+    margin: 0;
+}
+
+.editData {
+    background-color: #BCD8E6;
+    height: 90vh;
+}
+
+
+.editTarget {
+    background-color: #FFF7E2;
+    background-image: url(../../assets/pattern1.png);
+    background-size: 25em;
+    border-left: 1px black solid;
+
+}
+
+
+.infoContainer {
+
+    /* width: 25em; */
+    height: 20em;
+
+}
+
+.inputUserDesign {
+    border-radius: 50px;
+    height: 2em;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+    padding: 1em;
+
+}
+
+.buttonDesign {
+    background-color: white;
+    height: 5vh;
+    width: 20vh;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0) 2px 3px;
+    margin: 0 1em;
+    justify-content: space-evenly;
+}
+
+.userCard {
+    background-color: rgb(254, 245, 245);
+    height: 24em;
+    width: 20em;
+    box-shadow: rgba(0, 0, 0) 8px 8px;
+    border-radius: 15px;
+    border: 2px solid;
+    z-index: 1;
+}
+
+.userCard::before {
+    content: url("../../assets/buttons.png");
+    display: flex;
+    padding: 0.2em 0.5em 0 0;
+    justify-content: flex-end;
+    border-bottom: 2px solid black;
+}
+
+.userCardImage {
+    border-radius: 100%;
+    width: 150px;
+    border: solid 2px;
+}
+
+
+.pattern1 {
+    z-index: 2;
+    width: 20em;
+
+}
+
+.buttonsDiv {
+    padding: 1em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mouseImage {
+    margin-top: 0.5em;
+    width: 2em;
+}
+
+
+
+/* MEDIA QUERIES */
+
+@media(max-width: 500px) {
+    .inputDesign {
+        width: 15em;
+    }
+
+    .userCard {
+        margin: 2em;
+    }
+}
+
+@media(max-width: 768px) {
+    .mouseImage {
+        display: none;
+    }
+    .editTarget{
+        border: none;
+    }
+}
+
+/* @media(max-width: 768px) {
+    .mouseImage {
+        display: none;
+    }
+}
+ */
+

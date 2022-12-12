@@ -1,0 +1,182 @@
+
+
+.registerDesign{
+
+    background-color: #FFF7E2;
+    width: 200vw;
+    height: 90vh;
+    
+}
+
+.inputsBoxRegister{
+    background-color: rgb(254, 245, 245);
+    height: 80vh;
+    width: 24em;    
+    
+
+    display: flex;
+    gap: 0.5em;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    box-shadow: rgba(0, 0, 0) 8px 8px;
+    border-radius: 15px;
+    border: 2px solid;
+}
+
+
+.errorInput{
+    /* margin-top: -0.5em; */
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.inputsBoxRegister::before{
+
+    content: url("../../assets/buttons.png");
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.4em 0.5em 0 ;
+    height: 7vh;
+    width: 105%;
+    border-bottom: 2px solid black;
+
+}
+
+.inputRegDesign{
+    border-radius: 50px;
+    height: 2em;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 1em; */
+    padding: 0 0 0 1em;
+}
+
+#inputRegDesign:focus{
+    border: none;
+    box-shadow: none;
+}
+
+.buttonDesignRegister{
+    background-color: white;
+    height: 5vh;
+    width: 20vh;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0) 2px 3px;
+    margin-bottom: 2em;
+}
+
+.buttonDesignRegister:hover{
+    box-shadow: none;
+    cursor: pointer;
+    transition: 0.15s linear;
+
+
+}
+
+.imagesReg{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+
+.mouthImageReg{
+
+    position:absolute;
+    margin-top: 22em;
+    margin-left: -2em;
+    width: 15em;
+
+    transform: rotate(-10deg);
+    rotate: 10deg;
+}
+
+.buttonsImage{
+    width: 70px;
+    position: absolute;
+     
+}
+
+
+
+.rayImageReg{
+
+    position:absolute;
+    margin-top: 3em;
+    width: 12em;
+    
+    transform: rotate(-10deg);
+    rotate: 10deg;
+}
+
+.mouseImageReg{
+
+    position:absolute;
+    margin-top: 8em;
+    margin-left: -2em;
+    width: 3em;
+    
+    transform: rotate(-10deg);
+    rotate: 10deg;
+}
+
+.smileImageReg{
+
+    position:absolute;
+    margin-top: 25em;
+    margin-left: 4em;
+    
+    /* width: 50px; */
+    
+    transform: rotate(-10deg);
+    rotate: 10deg;
+}
+
+
+@media(max-width: 768px){
+.imagesReg{
+    display: none;
+}
+
+}
+
+.zoom:hover{
+    transform: scale(1.7);
+    transition: .7s;
+}
+
+
+@media(max-width: 500px){
+
+    .inputsBoxRegister{
+        width: 25vw;
+    }
+
+}
+
+@media(max-width: 360px){
+    .inputsBoxRegister{
+        margin: 4em; 
+        height: 100%;
+        
+    }
+    .registerDesign{
+        height: 110vh;
+    }
+   
+}
+
+
+/* .buttonDivReg{
+    height: -5em;
+} */
+
+.divContainerReg{
+    margin-top: 2em;;
+}

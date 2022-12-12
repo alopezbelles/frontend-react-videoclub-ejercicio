@@ -1,0 +1,113 @@
+.aboutDesign{
+    height: 90vh;
+}
+
+
+.col1{
+    /* width: 50%; */
+    /* height: 100%; */
+    background-image: url("../../assets/pattern3.png");
+    background-size: contain;
+    
+}
+
+
+.leftTarget{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    
+}
+
+
+.aboutTarget{
+    background-color: #FFF7E2;
+    width: auto;
+    height: auto;
+    margin: 2em;
+    margin-bottom: 7em;
+    margin-top: 8em;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0) 8px 8px;
+    border-radius: 15px;
+    border: 2px solid;
+}
+
+.aboutTarget::before {
+
+    content: url("../../assets/buttons.png");
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.4em 0.5em 0;
+    height: 7vh;
+    width: 100%;
+    border-bottom: 2px solid black;
+
+}
+
+.tittleAbout{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 1em;
+
+}
+
+
+.superEightTarget{
+    background-color: #ffe083;
+    width: auto;
+    height: auto;
+    margin: 4em;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0) 8px 8px;
+    border-radius: 15px;
+    border: 2px solid;
+}
+
+.superEightTarget::before {
+
+    content: url("../../assets/buttons.png");
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.4em 0.5em 0;
+    height: 7vh;
+    width: 100%;
+    border-bottom: 2px solid black;
+
+}
+
+.logoImageAbaut{
+    width: 12em;
+}
+
+.rightTarget{
+    background-color: #FFF7E2;
+    border-left: 1px solid black;
+    width: 50%;
+    height: 90vh;
+    
+}
+
+@media (max-width: 760px) {
+    .rightTarget{
+        width: 100% ;
+  
+    }
+  }
+  
+  @media (max-width: 360px) {
+    .rightTarget{
+        width: 100% ;
+  
+    }
+
+    .superEightTarget{
+        
+        margin: 1em;
+    }
+  }
