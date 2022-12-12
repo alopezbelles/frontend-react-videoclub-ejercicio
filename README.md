@@ -13,6 +13,10 @@
 
 **- Fecha:** 04/12/2022
 
+**- OBSERVACIONES:** Este proyecto es un ejercicio en colaboración con Mara Scampini, compañera de bootcamp Full Stack en la academia GeeksHubs Academy. Este frontend conecta con un backend desarrollado por mi compañera. El repositorio original del proyecto en el cual hemos colaborado es: 
+
+> https://github.com/MaraScampini/React-Videoclub-90s
+
 **-Tecnologías y dependencias:** 
 
 ![logos-tecnologias-utilizadas3](https://user-images.githubusercontent.com/113507322/205345377-539842e5-3691-4a3a-8919-5fe9a843dcc2.jpg)
